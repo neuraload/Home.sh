@@ -22,6 +22,7 @@ function apache_restart(){
 YELLOW="\033[1;33m"
 RED="\033[1;31m"
 END="\033[0m"
+
 echo -e $YELLOW"Restarting apache..."$END
 
 apache=`sudo systemctl restart httpd.service`
