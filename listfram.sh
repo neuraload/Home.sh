@@ -9,3 +9,5 @@ if [[ $raminfo < 1000 ]]; then
 else
     echo "You have enough memory, $raminfo MB left."
 fi
+
+## end
